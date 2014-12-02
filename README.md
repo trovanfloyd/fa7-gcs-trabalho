@@ -18,7 +18,7 @@ Utilizando o modelo __Template-PlanoDeGCS.md__ crie um Plano de Gestão de Confi
 * Como as auditorias de GCS serão conduzidas no projeto;
 
 __O trabalho deve ser feito observando-se as seguintes regras:__
-* Equipes de 3 pessoas;
+* __Equipes de 5 pessoas__;
 * Utilizar a ferramenta Git para controlar as versões do documento e o site Github para armazenar o repositório da equipe;
 * Inicialmente, a equipe deve __fazer o fork__ do repositório que contém o template para um repositório próprio da equipe;
 * O repositório da equipe deve conter um branch para cada integrante fazer suas contribuições;
