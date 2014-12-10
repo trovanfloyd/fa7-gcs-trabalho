@@ -22,9 +22,7 @@ Histórico de Versões
 1. Introdução
 ==============
 
-_[A introdução do Plano de Gerenciamento de Configuração  oferece uma visão geral de todo o documento. 
-Ela inclui a finalidade, o escopo, as definições, os acrônimos, as abreviações, as referências e uma visão geral deste
-Plano de Gerenciamento de Configuração.]_
+O Plano de Gerenciamento de Configuração tem como objetivo tornar claras as atividades a serem desempenhadas pelos envolvidos (Partes atuantes, Partes interessadas, Diretoria e a Coordenação) no que diz respeito a criação, atualização e manutenção de artefatos, documentos, processos e quaisquer outros tipos de informações sobre o projeto, durante seu ciclo de vida, tomando como referencia as regras definidas neste para nomenclatura de documentos, locais onde serão armazenados os artefatos e as referências dos termos utilizados na descrição das solicitações (vide Glossário de Termos).
 
 1.1 Finalidade
 ---------------
