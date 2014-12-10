@@ -104,12 +104,28 @@ _[Descreva o processo pelo qual os problemas e as mudanças são submetidos, rev
 _[Descreva a participação e os procedimentos para processar solicitações e aprovações de mudança a serem seguidos pelo CCB. Informe quem são os membros do CCB e suas responsabilidades.]_
 
 
-
 4. Padrões e Procedimentos
 ==========================
-_[Descreva os padrões e procedimentos que devem ser seguidos no projeto. Crie subseções se achar necessário, para organizá-los melhor.]_
+4.1 Padrão de nomeclatura dos artefatos
+---------------------------------------
+A Gestão de Configuração define qual a nomenclatura padrão a ser seguida pelos itens de configuração. Os documentos devem ser nomeados com as letras iniciais sempre em maiúsculo, sem acentos ou cedilhas e eliminando as preposições e espaços, os espaços serão substituídos por underscore (_).
 
+| Artefato/Projeto |	Regra |	Exemplo |
+|------------------|-------|---------|
+| Documentos em geral sem modelo previsto	| <NomeProjeto>_<NomeDocumento> Onde: <NomeProjeto> é o nome do projeto;
+<NomeDocumento> é o nome do documento sem espaços e preposições; |	PRJ_PlanoAcao |
+|------------------|-------|---------|
+| Documentos em geral com modelo previsto |	De forma geral, os nomes dos arquivos devem seguir sempre o padrão: <NomeProjeto>_<NomeModelo>	| Exemplo: PRJ_TermoAberturaProjeto |
+|------------------|-------|---------|
 
+4.2 Procedimento de backup
+--------------------------
+### 4.2.1 Rotina de backup
+A rotina de backup consiste em realizar cópias controladas de todo o repositório do projeto, no intuito de preservar as informações e permitir a recuperação das mesmas, em caso de falhas.
+A recuperação das informações deve ser realizada conforme a estrutura de pastas definidas no repositório do projeto e observando-se os níveis de segurança determinados na Ferramenta de Gestão de Configuração.
+
+### 4.2.2 Procedimento de descarte
+Não há descarte de artefatos do projeto.
 
 5. Treinamento e Recursos
 =========================
