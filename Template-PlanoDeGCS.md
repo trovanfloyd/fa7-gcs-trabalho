@@ -133,7 +133,5 @@ _[Descreva as ferramentas de software, o pessoal e o treinamento necessários pa
 
 6. Auditorias de Configuração
 =============================
-_[Descreva o cronograma das auditorias de configuração e o que será verificado. Informe também como serão reportados os problemas encontrados e onde sera feito o acompanhamento dos itens corretivos.]_
-
 Esta atividade tem por objetivo assegurar se o produto esta de acordo com os requisitos pré-estabelecidos e que correspondam as informações de configuração de produto. 
 As auditorias de configuração devem ser realizadas para cada ciclo do processo de desenvolvimento de forma a garantir que o processo de gerência de configuração estão sendo aplicados corretamente. Os artefatos gerados devem armazenados no repositório do projeto e devem ser acompanhados pelos Gerentes do Projeto.
