@@ -53,17 +53,45 @@ _[Esta subseção descreve o conteúdo restante do Plano de Gerenciamento de Con
 
 2.1 Organização, Responsabilidades e Interfaces
 ------------------------------------------------
-_[Descreva quem será o responsável pela execução das diversas atividades de Gerenciamento de Configuração (CM) descritas no Processo de CM.]_
+A equipe do departamento de TI executa a função de Gerenciador de Configuração para todos os projetos. Cada projeto terá uma ou mais pessoas designadas à função do Gerenciador de Controle de Mudanças.
 
 2.2 Ferramentas, Ambiente e Infra-estrutura
 -------------------------------------------
-_[Descreva o ambiente de computação e as ferramentas de software a serem utilizadas para desempenhar as funções de CM em todo o ciclo de vida do projeto ou produto._
-_Descreva as ferramentas e os procedimentos necessários utilizados para o controle de versão dos itens de configuração gerados no ciclo de vida do projeto ou produto._
-_As questões envolvidas na configuração do ambiente de CM incluem:_
-* _tamanho previsto dos dados do produto_
-* _distribuição da equipe do produto_
-* _localização física dos servidores e clientes]_
- 
+
+2.2.1 Ferramentas:
+
+  As ferramentas utilizadas para a operacionalização da Gestão de Configuração são:
+* Git: Ferramenta utilizada para controle de versão de documentos e códigos-fontes em todo o ciclo de vida do projeto.
+* Gitlab: Servidor central para armazenamento dos repositórios.
+* Pacote Microsoft Office: Pacote utilizado para a confecção dos documentos de Gestão de Configuração. 
+
+2.2.2 Ambientes:
+
+* Ambiente de Desenvolvimento
+
+  É o ambiente no qual ocorre a edição dos itens de configuração. Toda a equipe tem acesso a este ambiente. A sua estrutura é composta de 3 diretórios:
+  
+  /principal: Guarda a versão dos itens de configuração em desenvolvimento.
+  
+  /temp: Usado pelos desenvolvedores para armazenar temporariamente alterações e testes, sem comprometer a versão principal
+  
+  /versoes: Armazena versões estáveis do sistema que serão disponibilizadas para teste ou mesmo para reprodução.
+
+* Ambiente de Testes/Homologação
+  
+  Este ambiente contém versões do sistema disponibilizadas para testes e homologação. Apenas as equipes de teste e homologação possuem permissão de escrita. 
+
+* Ambiente de Produção
+
+  Contém apenas versões do sistema autorizadas pelo Gerente do Sistema. Apenas a equipe de implantação possui permissão de escrita.
+
+2.2.3 Infra-estrutura:
+
+  O setor de infra-estrutura é responsável pela manutenção dos servidores, sendo responsável pelas suas configurações, controle de acesso, backup, atualizações, etc.
+
+  Existem 4 servidores:
+* 1 para cada ambiente (Desenvolvimento, Teste/Homologação e Produção), no qual é disponibilizado acesso remoto via Terminal Service para os membros de cada equipe.
+* 1 servidor com Gitlab, que é utilizado como repositório central.
 
 
 3. O Programa de Gerenciamento de Configuração
