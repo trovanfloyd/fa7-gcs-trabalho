@@ -79,9 +79,10 @@ A equipe do departamento de TI executa a função de Gerenciador de Configuraç�
 
 * Ambiente de Testes/Homologação
   
-Este ambiente contém versões do sistema disponibilizadas para testes e homologação. Apenas as equipes de teste e homologação possuem permissão de escrita. 
+  Este ambiente contém versões do sistema disponibilizadas para testes e homologação. Apenas as equipes de teste e homologação possuem permissão de escrita. 
 
 * Ambiente de Produção
+
   Contém apenas versões do sistema autorizadas pelo Gerente do Sistema. Apenas a equipe de implantação possui permissão de escrita.
 
 2.2.3 Infra-estrutura:
