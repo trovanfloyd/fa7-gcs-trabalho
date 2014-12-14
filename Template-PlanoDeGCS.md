@@ -64,6 +64,7 @@ A equipe do departamento de TI executa a função de Gerenciador de Configuraç�
 * Git: Ferramenta utilizada para controle de versão de documentos e códigos-fontes em todo o ciclo de vida do projeto.
 * Gitlab: Servidor central para armazenamento dos repositórios.
 * Pacote Microsoft Office: Pacote utilizado para a confecção dos documentos de Gestão de Configuração. 
+* Jira: Ferramenta para controle de mudanças.
 
 2.2.2 Ambientes:
 
