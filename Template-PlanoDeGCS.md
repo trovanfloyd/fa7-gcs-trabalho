@@ -158,16 +158,11 @@ Não há descarte de artefatos do projeto.
 =========================
 Os seguintes cursos são recomendados de acordo com a função
 
-
-|Treinamento                 |Ferramenta     | Função |
-
+| Treinamento                 | Ferramenta	     | Função |
 |----------------------------------------|-----------------------------|----------------------|
-
 |Controle de Versão com o GIT|GIT|Qualquer função que altere os itens de configuração|
-
-|Administrando o GitLab|GitLab|Administrador do GitLab|
-
-|Controle de Mudanças com o Jira|JIRA|Integrantes do CCB|
+|Administrando o GitLab|GITLAB|Administrador do GitLab|
+|Controle de Mudanças com o JIRA|JIRA|Integrantes do CCB|
 
 6. Auditorias de Configuração
 =============================
