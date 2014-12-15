@@ -102,7 +102,25 @@ A equipe do departamento de TI executa a função de Gerenciador de Configuraç�
 ---------------------------------
 ### 3.1.1 Métodos de Identificação
 ----------------------------------
-_[Descreva como os artefatos do projeto ou produto devem ser nomeados, marcados e numerados. O esquema de identificação deve abranger o hardware, o software do sistema, os produtos de terceiros (COTS) e todos os artefatos de desenvolvimento de aplicativos listados na estrutura de diretórios do produto; por exemplo, planos, modelos, componentes, software de teste, resultados e dados, executáveis e assim por diante.]_
+_[Regra de Formação de Nomes de Artefatos
+
+Os nomes dos artefatos de um projeto devem seguir a regra:
+<CÓDIGO_SISTEMA>_<MÓDULO SISTEMA>_<NOME_ARTEFATO>_<DETALHES>.EXT
+Onde:
+
+<CÓDIGO_SISTEMA>:
+letra “S” seguida dos três números que compõem o código do sistema (OBRIGATÓRIO). Ex.: S344.
+<MÓDULO_SISTEMA>:
+nome do módulo do sistema com letras maiúsculas (OBRIGATÓRIO, apenas quando houver). Quando o nome do módulo for composto por mais de uma palavra, separá-las por undescore ( _ )
+Ex.: S400_GRUPO_ECONOMICO.
+
+<NOME_ARTEFATO>:
+um conjunto de caracteres alfanuméricos, sendo a primeira letra de cada palavra maiúscula e as demais minúsculas (OBRIGATÓRIO), para os artefatos definidos no RUP-BNB. Os elementos de ligação como “de” e “do” devem ser suprimidos e deverá ser usado o undescore (_) para separar as palavras. Veja a nomenclatura de identificação dos artefatos na tabela 2.
+
+<DETALHES>:
+um conjunto de caracteres alfanuméricos, sendo a primeira letra de cada palavra maiúscula e as demais minúsculas (OPCIONAL). O detalhe pode conter uma descrição sobre o que trata o documento e as palavras devem ser separadas por undescore (_).Para artefatos que envolvam data em sua identificação, colocar a data invertida segundo o formato aaaammdd. No caso dos artefatos definidos na tabela 2, o detalhe deve conter o número e o nome do caso de uso.
+EXT :
+Extensão do arquivo que representa o artefato.]_
 
 ### 3.1.2 Itens de Configuração
 _[Relacionar os artefatos ou grupos de artefatos, separando por tipo, modulo ou subsistema, responsável ou momento em que deverão ser incluídos em baselines._
@@ -110,28 +128,119 @@ _[Relacionar os artefatos ou grupos de artefatos, separando por tipo, modulo ou 
 * _“Responsável”: indicar nominalmente, sempre que possível]_
 
 | Item (ou Tipo de Item)                 | Responsável na equipe	     | Inclusão em Baseline |
-|----------------------------------------|-----------------------------|----------------------|
-|_&lt;grupo de itens de configuração&gt;_|_&lt;nome do responsável&gt;_|_&lt;momento a partir do qual o conjunto de artefatos será incluído em baseline&gt;_|
-
+|----------------------------------------|----------------------------- |----------------------|
+|Especificação de requisitos             |Victor(Analista de Requisitos)|            Sim       |
+|Plano do projeto                        |Hildo(Gerente do projeto)     |            Sim       |
+|Documento de visão                      |Pedro(Estagiário)             |                      |
 
 ### 3.1.3 Baselines do Projeto
 
 _[As baselines funcionam como um padrão oficial no qual os trabalhos subseqüentes são baseados. Somente mudanças autorizadas podem ser efetuadas nas baselines._
-_Descreva em que pontos do ciclo de vida do projeto ou produto as baselines devem ser estabelecidas. As baselines mais comuns devem ser definidas ao final de cada uma das fases de Iniciação, Elaboração, Construção e Transição. Elas também podem ser geradas no final de iterações ocorridas dentro das várias fases ou com freqüência ainda maior._
-_Descreva quem autoriza uma baseline e o que ela contém.]_
+
+Baseline de Planejamento Composição
+Dados do Projeto na Ferramenta de Gestão de Projetos:
+- Cronograma
+- Data Planejada de Início do Projeto
+- Data Planejada de Término do Projeto
+- Percentual Concluído
+- Duração Planejada
+- Duração Real
+- Esforço Planejado
+- Esforço Real
+- Custo Planejado
+- Custo Real Em que momento é Gerada
+Após aprovação do Plano de Projeto.
+Após planejamento de iteração.
+
+
+Baseline de Artefatos Composição
+- Documento de Visão
+- Declaração de Escopo
+- Especificação Casos de Uso Em que momento é Gerada
+A cada Homologação de artefato pelo Cliente. Desta forma, pode ser criada uma baseline para cada artefato homologado ou para um conjunto de artefatos homologados.
+
+
+Baseline de Mudança Composição
+Quaisquer itens que componham baseline e que precisem ser alterados.
+Os itens de configuração que compõem Baseline somente poderão ser alterados mediante uma Solicitação de Mudança APROVADA na Ferramenta de Gestão de Projetos. Em que momento é Gerada
+A cada alteração de itens de baseline.
+
+Antes de ser criada, a baseline precisa ser aprovada pelo comitê de mudanças, composto pelo lider do projeto, gerente, arquiteto e do analista de testes.
 
 ### 3.1.4 Estrutura do Repositório de Versões
-_[Descreva a organização de diretórios do seu repositório e que itens/arquivos devem ser armazenados em cada diretório.]_
+_[Os projetos deverão seguir a seguinte estrutura de pastas no repositóri:
+Projeto
+   -Sigla do projeto
+     Analise e design
+     Encerramento
+     Gerenciamento de Configuração
+     Homologacao
+     Implantação
+     Implementação
+
+    -Planejamento e Controle
+       -Artefatos nao controlados
+          Cliente
+          Internos
+
+       -Atas de Reuniao
+          Cliente
+          Equipe
+          Gerencia
+          Grupos de Apoio
+        Avaliacoes
+        Mudancas
+        Relatorio de Status
+
+    -Requisitos
+        Atas de reuniao
+        Casos de uso
+        prototipo
+
+    -Teste
+        Caso de teste]_
 
 3.2 Controle de Configuração e Mudança
 --------------------------------------
 
 ### 3.2.1 Processamento e Aprovação de Solicitações de Mudança
-_[Descreva o processo pelo qual os problemas e as mudanças são submetidos, revisados e dispostos. Inclua como funciona a transição de estados de uma solicitação de mudança]_
+  Será seguigo as atividades do RUP: Gerenciar Controles de Mudanças e Alterar & Entregar Itens de Configuração, com os seguintes refinamentos.
+
+Artefato: Ordem de Trabalho é mesclado com Artefato: Controle de Mudanças (CR) .  Portanto, o status das ordens de trabalho é gerenciado pelo rastreio do status de CRs.
+
+Uma atividade UCM é mapeada para o Artefato: Controle de Mudanças (CR). O termo CR será aplicado para o restante desse documento para consultar uma Atividade UCM. A Empresa segue o esquema UCM ClearQuest padrão.
+
+As atividades e os estados utilizados pela Empresa para gerenciar CRs estão descritas em Conceitos: Gerenciamento do Controle de Mudanças.
+
+Os campos requeridos para um CR são impostos pelo esquema ClearQuest e, portanto, não precisam ser documentados aqui.   
+
+O seguinte define as tarefas aplicáveis e mentores de ferramentas.
+
+Função	Tarefas do Rational Unified Process	Mentores da Ferramenta Rational	Notas/Ajuste
+Qualquer Função	Tarefa: Submeter Controle de Mudanças
+Tarefa: Atualizar Controle de Mudanças	Submetendo os Controles de Mudanças	 
+Gerenciador de Controle de Mudanças	Tarefa: Rever Controle de Mudanças 
+Tarefa: Confirma CR Duplicado ou Rejeitado	Relatando o Status de Revisão e de Trabalho	
+A Empresa não requer o uso de um Quadro de Controle de Configuração.  Os Controles de Mudança são revisados e aprovados por um membro do projeto, o Gerente de Controle de Mudança, que geralmente também é o Gerente de Projetos, Líder da Equipe ou Arquiteto do Software.
+
+Coordenador de Projeto	Tarefa: Planejar e Designar o Trabalho	 	Artefato: A Ordem de Trabalho é mesclada com o Artefato: Controle de Mudanças (CR). A designação de trabalho é executada, designando o CR. Consulte os Conceitos: Gerenciamento do Controle de Mudanças para obter detalhes.
+Qualquer Função	Tarefa: Efetuar Alterações	Utilizando os Conjuntos de Mudanças do UCM	 
+Qualquer Função	Tarefa: Entregar Alterações 	Entregando Seu Trabalho	"Qualquer Função" (quem efetuou as alterações) deve assegurar que os procedimentos de revisão aplicáveis foram seguidos e a revisão tenha sido transmitida, antes de fornecer qualquer alteração.
+Os procedimentos de revisão aplicáveis são especificados no Caso de Desenvolvimento.
+
+Integrador	Tarefa: Verificar Mudanças na Construção	 	 
+ 
 
 ### 3.2.2 Comitê de Controle de Mudança (CCB)
-_[Descreva a participação e os procedimentos para processar solicitações e aprovações de mudança a serem seguidos pelo CCB. Informe quem são os membros do CCB e suas responsabilidades.]_
+CCB (Conselho de Controle de Mudanças (ou Configuração)) - O conselho que supervisiona o processo de alteração que consiste em representantes de todas as partes interessadas, incluindo clientes, desenvolvedores e usuários. Em projetos pequenos, um único membro da equipe, como o coordenador de projeto ou o arquiteto de software, pode desempenhar essa função. No Rational Unified Process, isso é mostrado pela função de Gerenciador do Controle de Mudanças.
 
+Reunião de Revisão de CCB - A função desta reunião é revisar os Controles de Mudanças Enviados. Uma revisão inicial do conteúdo do Controle de Mudanças é feita na reunião para determinar se o pedido é válido. Se for, será decidido se a mudança está dentro ou fora do escopo das liberações atuais, de acordo com prioridade, planejamento, recursos, nível de esforço, risco, gravidade e outros critérios relevantes definidos pelo grupo. Geralmente, essa reunião ocorre uma vez por semana. Se o volume de Controles de Mudanças aumentar significativamente ou quando o ciclo de liberação está perto do fim, a reunião pode ser mais freqüente, até mesmo diária. Os membros que normalmente participam da Reunião de Revisão do CCB são o Gerenciador de Teste, o Gerenciador de Desenvolvimento e um membro do Departamento de Marketing. É possível que participantes adicionais sejam requisitados pelos membros, caso os julguem "necessários".
+
+Formulário de Envio de Controle de Mudanças - Esse formulário é exibido quando um Controle de Mudanças está sendo Enviado pela primeira vez. Somente os campos necessários deverão ser preenchidos pelo solicitante, como exibido no formulário.
+
+Formulário Combinado de Controle de Mudanças - Esse formulário é exibido quando você está revisando um Controle de Mudanças que já foi enviado. Ele contém todos os campos necessários para descrever o Controle de Mudanças.
+
+O contorno do processo de Controle de Mudanças a seguir descreve os estados e os status dos Controles de Mudanças durante seu processo geral e quem precisa ser notificado durante o ciclo de vida do Controle de Mudanças. O processo geral associado a Controles de Mudanças está descrito em Tarefa: Estabelecer Processo de Controle de Mudanças.
 
 4. Padrões e Procedimentos
 ==========================
