@@ -22,30 +22,57 @@ Histórico de Versões
 1. Introdução
 ==============
 
-_[A introdução do Plano de Gerenciamento de Configuração  oferece uma visão geral de todo o documento. 
-Ela inclui a finalidade, o escopo, as definições, os acrônimos, as abreviações, as referências e uma visão geral deste
-Plano de Gerenciamento de Configuração.]_
+O Plano de Gerenciamento de Configuração tem como objetivo tornar claras as atividades a serem desempenhadas pelos envolvidos (Partes atuantes, Partes interessadas, Diretoria e a Coordenação) no que diz respeito a criação, atualização e manutenção de artefatos, documentos, processos e quaisquer outros tipos de informações sobre o projeto, durante seu ciclo de vida, tomando como referencia as regras definidas neste para nomenclatura de documentos, locais onde serão armazenados os artefatos e as referências dos termos utilizados na descrição das solicitações (vide Glossário de Termos).
 
 1.1 Finalidade
 ---------------
-_[Especifique a finalidade deste Plano de Gerenciamento de Configuração.]_
+A finalidade deste documento é apresentar um conjunto de regras e definições sobre o controle, nomenclatura e responsáveis pela manutenção de artefatos relativos ao projeto e ditar como as mudanças ocorrerão durante o desenvolvimento do ciclo de vida do projeto, determinando quais são os membros responsáveis por mantê-los.
 
 1.2 Escopo
 ----------
-_[Uma breve descrição do escopo deste Plano de Gerenciamento de Configuração; o modelo ao qual ele está associado e tudo o que é afetado ou influenciado por este documento.]_
+A atuação da Configuração de Mudanças deverá ocorrer desde o momento do Termo de Abertura do Projeto (ou reunião de Kick-off), até o seu encerramento, usando como marco a Reunião de Encerramento do Projeto (ou o Relatório de Lições Aprendidas). Durante o ciclo de vida do projeto, os modelos de documentos de especificação de analise de sistemas, documento de interface do projeto, documentos de casos de uso, relatórios, atas de reuniões e documentos de casos de teste deverão ser manipulados conforme as atribuições da equipe, de acordo com estrutura proposta pela Diretoria (vide Item 2.2.2).
 
 1.3 Definições, Acrônimos e Abreviações
 ---------------------------------------
-_[Esta subseção apresenta as definições de todos os termos, acrônimos e abreviações necessários para a correta interpretação do Plano de Gerenciamento de Configuração.  Essas informações podem ser fornecidas mediante referência ao Glossário do projeto.]_
+Utilizando como critério a necessidade de monitorar as mudanças aplicadas aos itens de configuração diretamente associados ao produto a ser desenvolvido, serão aplicados acrônimos, abreviações sob os itens de configuração relativos a:
+(01) Especificações de Casos de Uso;
+(02) Especificações de Casos de Testes;
+(03) Desenhos de Ícones e Regras de layout (CSS);
+(04) Modelos de dados, Desenhos e Especificações de Arquitetura;
+(05) Provas de Conceito;
+(06) Planilhas de Estimativa, Controle de Tempo e Custo;
+(07) Auditorias, Revisões e Inspeções de Código e Processos;
+(08) Requisitos Funcionais;
+(09) Requisitos Não Funcionais;
+(10) Regras de Negócio;
+(11) Regras de Banco de Dados;
+(12) Testes Funcionais;
+(13) Testes de Interface;
+(14) Testes de Carga;
+(15) Testes de Performance;
+(16) Tags para Commits;
+(17) Tags para Acertos / Correções;
+(18) Tags para Adição de Novos Componentes / Elementos;
+(19) Tags para Criação de Versões com correção de Bugs (Fix);
+(20) Tags para Criação de Novas Versões com Novas Funções (Candidatas a Release - RC).
+
+Vide detalhes no item (3).
 
 1.4 Referências
 ---------------
-_[Esta subseção apresenta uma lista completa de todos os documentos mencionados no Plano de Gerenciamento de Configuração. Identifique os documentos por título, número de relatório (se aplicável), data e organização responsável pela publicação. Especifique as fontes a partir das quais as referências podem ser obtidas. Essas informações podem ser fornecidas por um anexo ou outro documento.]_
+Vide referências aos documentos citados nas seguintes templates:
+(01) Template de Caso de Uso (Documento guia padrão, que explana em detalhes, como ocorrerá a análise do produto);
+(02) Template de Caso de Teste (Documento guia padrão, que contém as explanações de como deverão proceder as análises e inferencias sobre os testes a serem realizados);
+(03) Template de Prova de Conceito (Documento guia padrão, que explana quais são os passos a serem expostos para a equipe sobre o conhecimento adquirido no estudo e análise de uma nova tecnologia);
+(04) Template de Interface (Documento guia padrão, responsável por explanar e manter como padrões os comportamentos de usabilidade ditados pela Diretoria, na aceitação do produto);
+
+Vide informações gerais associadas a Gerencia de Configuração nos seguintes documentos:
+(05) Documento de Glossário de Termos (que possui a descrição e explanação sobre os demais termos utilizados neste documento como nos demais artefatos produzidos no ciclo de vida do projeto).
 
 1.5 Visão Geral
 ---------------
-_[Esta subseção descreve o conteúdo restante do Plano de Gerenciamento de Configuração e explica como o documento está organizado.]_
-
+O documento está organizado em tópicos, que detalham os demais pontos da Gerencia de Configuração de Mudanças:
+O item (2) irá expor como e quais são os responsáveis por manter os itens de configuração do projeto, bem como onde serão armazenadas as informações e quais são os repositórios designados as mesmas; O item (3) explana como ocorrerão as rotinas de gerenciamento de configuração, no que diz respeito aos padrões de nomenclaturas, acronimos e demais determinações de controle sobre os artefatos; Os procedimentos e rotinas de fluxo de atividades dos respectivos responsáveis sobre os itens de configuração serão descritos pelo item (4) e, por fim, os itens (5) e (6) detalham, respectivamente, sobre as necessidades de treinamento para capacitação da equipe e a execução das rotinas de auditorias, a fim de realizar uma análise sobre como vai o desenvolvimento, o monitoramento e o controle das solicitações de mudança, com base no ciclo de vida do projeto.
 
 
 2. Gerenciamento de Configuração de Software
