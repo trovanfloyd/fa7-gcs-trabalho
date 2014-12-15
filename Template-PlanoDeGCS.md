@@ -35,29 +35,7 @@ A atuação da Configuração de Mudanças deverá ocorrer desde o momento do Te
 1.3 Definições, Acrônimos e Abreviações
 ---------------------------------------
 Serão aplicados acrônimos, abreviações sob os itens de configuração relativos a:
-(01) Especificações de Casos de Uso;
-(02) Especificações de Casos de Testes;
-(03) Desenhos de Ícones e Regras de layout (CSS);
-(04) Modelos de dados, Desenhos e Especificações de Arquitetura;
-(05) Provas de Conceito;
-(06) Planilhas de Estimativa, Controle de Tempo e Custo;
-(07) Auditorias, Revisões e Inspeções de Código e Processos.
-
-(08) Requisitos Funcionais;
-(09) Requisitos Não Funcionais;
-(10) Regras de Negócio;
-(11) Regras de Banco de Dados;
-
-(12) Testes Funcionais;
-(13) Testes de Interface;
-(14) Testes de Carga;
-(15) Testes de Performance;
-
-(16) Tags para Commits;
-(17) Tags para Acertos / Correções;
-(18) Tags para Adição de Novos Componentes / Elementos;
-(19) Tags para Criação de Versões com correção de Bugs (Fix);
-(20) Tags para Criação de Novas Versões com Novas Funções (Candidatas a Release - RC);
+(01) Especificações de Casos de Uso; (02) Especificações de Casos de Testes; (03) Desenhos de Ícones e Regras de layout (CSS); (04) Modelos de dados, Desenhos e Especificações de Arquitetura; (05) Provas de Conceito; (06) Planilhas de Estimativa, Controle de Tempo e Custo; (07) Auditorias, Revisões e Inspeções de Código e Processos; (08) Requisitos Funcionais; (09) Requisitos Não Funcionais; (10) Regras de Negócio; (11) Regras de Banco de Dados; (12) Testes Funcionais; (13) Testes de Interface; (14) Testes de Carga; (15) Testes de Performance; (16) Tags para Commits; (17) Tags para Acertos / Correções; (18) Tags para Adição de Novos Componentes / Elementos; (19) Tags para Criação de Versões com correção de Bugs (Fix); (20) Tags para Criação de Novas Versões com Novas Funções (Candidatas a Release - RC).
 
 Vide detalhes no item (3).
 
