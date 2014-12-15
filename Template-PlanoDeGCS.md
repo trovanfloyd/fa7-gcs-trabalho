@@ -1,4 +1,4 @@
-<Nome do Projeto>
+﻿<Nome do Projeto>
 =================
 Plano de Gerenciamento de Configuração
 ======================================
@@ -156,9 +156,18 @@ Não há descarte de artefatos do projeto.
 
 5. Treinamento e Recursos
 =========================
-_[Descreva as ferramentas de software, o pessoal e o treinamento necessários para implementar as atividades de CM especificadas.]_
+Os seguintes cursos são recomendados de acordo com a função
 
 
+|Treinamento                 |Ferramenta     | Função |
+
+|----------------------------------------|-----------------------------|----------------------|
+
+|Controle de Versão com o GIT|GIT|Qualquer função que altere os itens de configuração|
+
+|Administrando o GitLab|GitLab|Administrador do GitLab|
+
+|Controle de Mudanças com o Jira|JIRA|Integrantes do CCB|
 
 6. Auditorias de Configuração
 =============================
