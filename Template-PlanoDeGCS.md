@@ -1,20 +1,21 @@
-﻿<Nome do Projeto>
+SMART
 =================
 Plano de Gerenciamento de Configuração
 ======================================
-Versão &lt;1.0&gt;
+Versão 1.0
 ------------------
 
-_[Observação: O template a seguir é fornecido para uso com o Rational Unified Process (RUP).  O texto exibido entre colchetes e em itálico foi incluído para orientar o autor e deve ser excluído antes da publicação do documento._
-
-_Este documento utiliza a formatação da linguagem [Markdown] (http://daringfireball.net/projects/markdown/). Você pode encontrar um guia de referência rápido [aqui] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).]_
 
 Histórico de Versões
 --------------------
 
 |Data                |Versão       |Descrição               |Autor          |
 |--------------------|-------------|------------------------|---------------|
-|_&lt;dd/mm/aaaa&gt;_|_&lt;1.0&gt;_|_&lt;Versão inicial&gt;_|_&lt;autor&gt;_|
+|15/12/2014|1.0|Versão inicial do plano|Gustavo Salomão 
+Andre Belarmino
+Josilene Santos
+Francisco Chagas
+Hildo Costa|
 |_&lt;dd/mm/aaaa&gt;_|_&lt;1.1&gt;_|_&lt;Outra versão&gt;_  |_&lt;autor&gt;_|
 
 
@@ -35,39 +36,39 @@ A atuação da Configuração de Mudanças deverá ocorrer desde o momento do Te
 1.3 Definições, Acrônimos e Abreviações
 ---------------------------------------
 Utilizando como critério a necessidade de monitorar as mudanças aplicadas aos itens de configuração diretamente associados ao produto a ser desenvolvido, serão aplicados acrônimos, abreviações sob os itens de configuração relativos a:
-(01) Especificações de Casos de Uso;
-(02) Especificações de Casos de Testes;
-(03) Desenhos de Ícones e Regras de layout (CSS);
-(04) Modelos de dados, Desenhos e Especificações de Arquitetura;
-(05) Provas de Conceito;
-(06) Planilhas de Estimativa, Controle de Tempo e Custo;
-(07) Auditorias, Revisões e Inspeções de Código e Processos;
-(08) Requisitos Funcionais;
-(09) Requisitos Não Funcionais;
-(10) Regras de Negócio;
-(11) Regras de Banco de Dados;
-(12) Testes Funcionais;
-(13) Testes de Interface;
-(14) Testes de Carga;
-(15) Testes de Performance;
-(16) Tags para Commits;
-(17) Tags para Acertos / Correções;
-(18) Tags para Adição de Novos Componentes / Elementos;
-(19) Tags para Criação de Versões com correção de Bugs (Fix);
-(20) Tags para Criação de Novas Versões com Novas Funções (Candidatas a Release - RC).
+* Especificações de Casos de Uso;
+* Especificações de Casos de Testes;
+* Desenhos de Ícones e Regras de layout (CSS);
+* Modelos de dados, Desenhos e Especificações de Arquitetura;
+* Provas de Conceito;
+* Planilhas de Estimativa, Controle de Tempo e Custo;
+* Auditorias, Revisões e Inspeções de Código e Processos;
+* Requisitos Funcionais;
+* Requisitos Não Funcionais;
+* Regras de Negócio;
+* Regras de Banco de Dados;
+* Testes Funcionais;
+* Testes de Interface;
+* Testes de Carga;
+* Testes de Performance;
+* Tags para Commits;
+* Tags para Acertos / Correções;
+* Tags para Adição de Novos Componentes / Elementos;
+* Tags para Criação de Versões com correção de Bugs (Fix);
+* Tags para Criação de Novas Versões com Novas Funções (Candidatas a Release - RC).
 
 Vide detalhes no item (3).
 
 1.4 Referências
 ---------------
 Vide referências aos documentos citados nas seguintes templates:
-(01) Template de Caso de Uso (Documento guia padrão, que explana em detalhes, como ocorrerá a análise do produto);
-(02) Template de Caso de Teste (Documento guia padrão, que contém as explanações de como deverão proceder as análises e inferencias sobre os testes a serem realizados);
-(03) Template de Prova de Conceito (Documento guia padrão, que explana quais são os passos a serem expostos para a equipe sobre o conhecimento adquirido no estudo e análise de uma nova tecnologia);
-(04) Template de Interface (Documento guia padrão, responsável por explanar e manter como padrões os comportamentos de usabilidade ditados pela Diretoria, na aceitação do produto);
+* Template de Caso de Uso (Documento guia padrão, que explana em detalhes, como ocorrerá a análise do produto);
+* Template de Caso de Teste (Documento guia padrão, que contém as explanações de como deverão proceder as análises e inferencias sobre os testes a serem realizados);
+* Template de Prova de Conceito (Documento guia padrão, que explana quais são os passos a serem expostos para a equipe sobre o conhecimento adquirido no estudo e análise de uma nova tecnologia);
+* Template de Interface (Documento guia padrão, responsável por explanar e manter como padrões os comportamentos de usabilidade ditados pela Diretoria, na aceitação do produto);
 
 Vide informações gerais associadas a Gerencia de Configuração nos seguintes documentos:
-(05) Documento de Glossário de Termos (que possui a descrição e explanação sobre os demais termos utilizados neste documento como nos demais artefatos produzidos no ciclo de vida do projeto).
+* Documento de Glossário de Termos (que possui a descrição e explanação sobre os demais termos utilizados neste documento como nos demais artefatos produzidos no ciclo de vida do projeto).
 
 1.5 Visão Geral
 ---------------
@@ -129,28 +130,28 @@ A equipe do departamento de TI executa a função de Gerenciador de Configuraç�
 ---------------------------------
 ### 3.1.1 Métodos de Identificação
 ----------------------------------
-_[Regra de Formação de Nomes de Artefatos
+__Regra de Formação de Nomes de Artefatos__
 
 Os nomes dos artefatos de um projeto devem seguir a regra:
-<CÓDIGO_SISTEMA>_<MÓDULO SISTEMA>_<NOME_ARTEFATO>_<DETALHES>.EXT
+* &lt;CÓDIGO_SISTEMA&gt;_&lt;MÓDULO SISTEMA&gt;_&lt;NOME_ARTEFATO&gt;_&lt;DETALHES&gt;.EXT
 Onde:
-
-<CÓDIGO_SISTEMA>:
+* &lt;CÓDIGO_SISTEMA&gt;:
 letra “S” seguida dos três números que compõem o código do sistema (OBRIGATÓRIO). Ex.: S344.
-<MÓDULO_SISTEMA>:
+* &lt;MÓDULO_SISTEMA&gt;:
 nome do módulo do sistema com letras maiúsculas (OBRIGATÓRIO, apenas quando houver). Quando o nome do módulo for composto por mais de uma palavra, separá-las por undescore ( _ )
 Ex.: S400_GRUPO_ECONOMICO.
 
-<NOME_ARTEFATO>:
+* &lt;NOME_ARTEFATO&gt;:
 um conjunto de caracteres alfanuméricos, sendo a primeira letra de cada palavra maiúscula e as demais minúsculas (OBRIGATÓRIO), para os artefatos definidos no RUP-BNB. Os elementos de ligação como “de” e “do” devem ser suprimidos e deverá ser usado o undescore (_) para separar as palavras. Veja a nomenclatura de identificação dos artefatos na tabela 2.
 
-<DETALHES>:
+* &lt;DETALHES&gt;:
 um conjunto de caracteres alfanuméricos, sendo a primeira letra de cada palavra maiúscula e as demais minúsculas (OPCIONAL). O detalhe pode conter uma descrição sobre o que trata o documento e as palavras devem ser separadas por undescore (_).Para artefatos que envolvam data em sua identificação, colocar a data invertida segundo o formato aaaammdd. No caso dos artefatos definidos na tabela 2, o detalhe deve conter o número e o nome do caso de uso.
 EXT :
 Extensão do arquivo que representa o artefato.]_
 
 ### 3.1.2 Itens de Configuração
-_[Relacionar os artefatos ou grupos de artefatos, separando por tipo, modulo ou subsistema, responsável ou momento em que deverão ser incluídos em baselines._
+Relacionar os artefatos ou grupos de artefatos, separando por tipo, modulo ou subsistema, responsável ou momento em que deverão ser incluídos em baselines.
+
 * _“Inclusão em Baseline” em branco significa que o grupo de artefatos não participará de baseline. Pode ser expresso como uma data ou identificador de uma baseline, fase ou ponto de controle_
 * _“Responsável”: indicar nominalmente, sempre que possível]_
 
@@ -161,10 +162,9 @@ _[Relacionar os artefatos ou grupos de artefatos, separando por tipo, modulo ou 
 |Documento de visão                      |Pedro(Estagiário)             |                      |
 
 ### 3.1.3 Baselines do Projeto
+As baselines funcionam como um padrão oficial no qual os trabalhos subseqüentes são baseados. Somente mudanças autorizadas podem ser efetuadas nas baselines.
 
-_[As baselines funcionam como um padrão oficial no qual os trabalhos subseqüentes são baseados. Somente mudanças autorizadas podem ser efetuadas nas baselines._
-
-Baseline de Planejamento Composição
+__Baseline de Planejamento Composição__
 Dados do Projeto na Ferramenta de Gestão de Projetos:
 - Cronograma
 - Data Planejada de Início do Projeto
@@ -180,14 +180,14 @@ Após aprovação do Plano de Projeto.
 Após planejamento de iteração.
 
 
-Baseline de Artefatos Composição
+__Baseline de Artefatos Composição__
 - Documento de Visão
 - Declaração de Escopo
 - Especificação Casos de Uso Em que momento é Gerada
 A cada Homologação de artefato pelo Cliente. Desta forma, pode ser criada uma baseline para cada artefato homologado ou para um conjunto de artefatos homologados.
 
 
-Baseline de Mudança Composição
+__Baseline de Mudança Composição__
 Quaisquer itens que componham baseline e que precisem ser alterados.
 Os itens de configuração que compõem Baseline somente poderão ser alterados mediante uma Solicitação de Mudança APROVADA na Ferramenta de Gestão de Projetos. Em que momento é Gerada
 A cada alteração de itens de baseline.
@@ -195,7 +195,7 @@ A cada alteração de itens de baseline.
 Antes de ser criada, a baseline precisa ser aprovada pelo comitê de mudanças, composto pelo lider do projeto, gerente, arquiteto e do analista de testes.
 
 ### 3.1.4 Estrutura do Repositório de Versões
-_[Os projetos deverão seguir a seguinte estrutura de pastas no repositóri:
+Os projetos deverão seguir a seguinte estrutura de pastas no repositório:
 Projeto
    -Sigla do projeto
      Analise e design
@@ -231,7 +231,7 @@ Projeto
 --------------------------------------
 
 ### 3.2.1 Processamento e Aprovação de Solicitações de Mudança
-  Será seguigo as atividades do RUP: Gerenciar Controles de Mudanças e Alterar & Entregar Itens de Configuração, com os seguintes refinamentos.
+Será seguigo as atividades do RUP: Gerenciar Controles de Mudanças e Alterar & Entregar Itens de Configuração, com os seguintes refinamentos.
 
 Artefato: Ordem de Trabalho é mesclado com Artefato: Controle de Mudanças (CR) .  Portanto, o status das ordens de trabalho é gerenciado pelo rastreio do status de CRs.
 
@@ -239,23 +239,23 @@ Uma atividade UCM é mapeada para o Artefato: Controle de Mudanças (CR). O term
 
 As atividades e os estados utilizados pela Empresa para gerenciar CRs estão descritas em Conceitos: Gerenciamento do Controle de Mudanças.
 
-Os campos requeridos para um CR são impostos pelo esquema ClearQuest e, portanto, não precisam ser documentados aqui.   
+Os campos requeridos para um CR são impostos pelo esquema ClearQuest e, portanto, não precisam ser documentados aqui.
 
 O seguinte define as tarefas aplicáveis e mentores de ferramentas.
 
 Função	Tarefas do Rational Unified Process	Mentores da Ferramenta Rational	Notas/Ajuste
 Qualquer Função	Tarefa: Submeter Controle de Mudanças
-Tarefa: Atualizar Controle de Mudanças	Submetendo os Controles de Mudanças	 
+Tarefa: Atualizar Controle de Mudanças	Submetendo os Controles de Mudanças
 Gerenciador de Controle de Mudanças	Tarefa: Rever Controle de Mudanças 
 Tarefa: Confirma CR Duplicado ou Rejeitado	Relatando o Status de Revisão e de Trabalho	
 A Empresa não requer o uso de um Quadro de Controle de Configuração.  Os Controles de Mudança são revisados e aprovados por um membro do projeto, o Gerente de Controle de Mudança, que geralmente também é o Gerente de Projetos, Líder da Equipe ou Arquiteto do Software.
 
 Coordenador de Projeto	Tarefa: Planejar e Designar o Trabalho	 	Artefato: A Ordem de Trabalho é mesclada com o Artefato: Controle de Mudanças (CR). A designação de trabalho é executada, designando o CR. Consulte os Conceitos: Gerenciamento do Controle de Mudanças para obter detalhes.
-Qualquer Função	Tarefa: Efetuar Alterações	Utilizando os Conjuntos de Mudanças do UCM	 
+Qualquer Função	Tarefa: Efetuar Alterações	Utilizando os Conjuntos de Mudanças do UCM
 Qualquer Função	Tarefa: Entregar Alterações 	Entregando Seu Trabalho	"Qualquer Função" (quem efetuou as alterações) deve assegurar que os procedimentos de revisão aplicáveis foram seguidos e a revisão tenha sido transmitida, antes de fornecer qualquer alteração.
 Os procedimentos de revisão aplicáveis são especificados no Caso de Desenvolvimento.
 
-Integrador	Tarefa: Verificar Mudanças na Construção	 	 
+Integrador	Tarefa: Verificar Mudanças na Construção
  
 
 ### 3.2.2 Comitê de Controle de Mudança (CCB)
