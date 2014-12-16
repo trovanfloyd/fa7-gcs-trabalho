@@ -129,8 +129,8 @@ A equipe do departamento de TI executa a função de Gerenciador de Configuraç�
 __Regra de Formação de Nomes de Artefatos__
 
 Os nomes dos artefatos de um projeto devem seguir a regra:
-* &lt;CÓDIGO_SISTEMA&gt;_&lt;MÓDULO SISTEMA&gt;_&lt;NOME_ARTEFATO&gt;_&lt;DETALHES&gt;.EXT
-Onde:
+* &lt;CÓDIGO_SISTEMA&gt; _ &lt;MÓDULO SISTEMA&gt; _ &lt;NOME_ARTEFATO&gt; _ &lt;DETALHES&gt;.EXT
+Onde: 
 * &lt;CÓDIGO_SISTEMA&gt;:
 letra “S” seguida dos três números que compõem o código do sistema (OBRIGATÓRIO). Ex.: S344.
 * &lt;MÓDULO_SISTEMA&gt;:
@@ -160,7 +160,12 @@ Relacionar os artefatos ou grupos de artefatos, separando por tipo, modulo ou su
 ### 3.1.3 Baselines do Projeto
 As baselines funcionam como um padrão oficial no qual os trabalhos subseqüentes são baseados. Somente mudanças autorizadas podem ser efetuadas nas baselines.
 
-__Baseline de Planejamento Composição__
+__Baseline de Configuração__
+- Plano de Gestão de Configuração do software
+Após aprovação do plano.
+Padrão de nome: &lt;CÓDIGO_SISTEMA&gt; _ configuracao
+
+__Baseline de Planejamento__
 Dados do Projeto na Ferramenta de Gestão de Projetos:
 - Cronograma
 - Data Planejada de Início do Projeto
@@ -174,19 +179,21 @@ Dados do Projeto na Ferramenta de Gestão de Projetos:
 - Custo Real Em que momento é Gerada
 Após aprovação do Plano de Projeto.
 Após planejamento de iteração.
+Padrão de nome: &lt;CÓDIGO_SISTEMA&gt; _ planejamento
 
-
-__Baseline de Artefatos Composição__
+__Baseline de Artefatos__
 - Documento de Visão
 - Declaração de Escopo
 - Especificação Casos de Uso Em que momento é Gerada
 A cada Homologação de artefato pelo Cliente. Desta forma, pode ser criada uma baseline para cada artefato homologado ou para um conjunto de artefatos homologados.
+Padrão de nome: &lt;CÓDIGO_SISTEMA&gt; _ artefatos
 
 
-__Baseline de Mudança Composição__
+__Baseline de Mudança__
 Quaisquer itens que componham baseline e que precisem ser alterados.
 Os itens de configuração que compõem Baseline somente poderão ser alterados mediante uma Solicitação de Mudança APROVADA na Ferramenta de Gestão de Projetos. Em que momento é Gerada
 A cada alteração de itens de baseline.
+Padrão de nome: &lt;CÓDIGO_SISTEMA&gt; _ mudanca
 
 Antes de ser criada, a baseline precisa ser aprovada pelo comitê de mudanças, composto pelo lider do projeto, gerente, arquiteto e do analista de testes.
 
