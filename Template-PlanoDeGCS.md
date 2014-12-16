@@ -12,7 +12,7 @@ Histórico de Versões
 |Data                |Versão       |Descrição               |Autor          |
 |--------------------|-------------|------------------------|---------------|
 |15/12/2014|1.0|Versão inicial do plano|Gustavo Salomão Andre Belarmino Josilene Santos Francisco Chagas Hildo Costa|
-|--------------------|-------------|------------------------|---------------|
+
 
 
 
