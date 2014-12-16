@@ -11,12 +11,8 @@ Histórico de Versões
 
 |Data                |Versão       |Descrição               |Autor          |
 |--------------------|-------------|------------------------|---------------|
-|15/12/2014|1.0|Versão inicial do plano|Gustavo Salomão 
-Andre Belarmino
-Josilene Santos
-Francisco Chagas
-Hildo Costa|
-|_&lt;dd/mm/aaaa&gt;_|_&lt;1.1&gt;_|_&lt;Outra versão&gt;_  |_&lt;autor&gt;_|
+|15/12/2014|1.0|Versão inicial do plano|Gustavo Salomão Andre Belarmino Josilene Santos Francisco Chagas Hildo Costa|
+|--------------------|-------------|------------------------|---------------|
 
 
 
@@ -147,7 +143,7 @@ um conjunto de caracteres alfanuméricos, sendo a primeira letra de cada palavra
 * &lt;DETALHES&gt;:
 um conjunto de caracteres alfanuméricos, sendo a primeira letra de cada palavra maiúscula e as demais minúsculas (OPCIONAL). O detalhe pode conter uma descrição sobre o que trata o documento e as palavras devem ser separadas por undescore (_).Para artefatos que envolvam data em sua identificação, colocar a data invertida segundo o formato aaaammdd. No caso dos artefatos definidos na tabela 2, o detalhe deve conter o número e o nome do caso de uso.
 EXT :
-Extensão do arquivo que representa o artefato.]_
+Extensão do arquivo que representa o artefato.
 
 ### 3.1.2 Itens de Configuração
 Relacionar os artefatos ou grupos de artefatos, separando por tipo, modulo ou subsistema, responsável ou momento em que deverão ser incluídos em baselines.
